@@ -1,0 +1,203 @@
+@media(max-width: 1024px) {
+    .container {
+        width: 768px !important;
+    }
+
+    .hero .main {
+        width: 400px !important;
+    }
+
+    .hero .level h2 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+
+    .hero .container .level h2 .underline::before {
+        left: -230px !important;
+        width: 100px;
+        margin: 0 auto;
+
+    }
+
+    .main-title h2 {
+        font-size: 40px !important;
+    }
+
+    .cards .title h1 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    .about .info-man .info .btn {
+        width: 50px !important;
+        height: 50px !important;
+        font-size: 10px !important;
+    }
+
+    .about .info-man .info .btn i {
+        font-size: 20px !important;
+    }
+
+    .about .info-man .info .name {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+
+    .about .info-man .image {
+        width: 400px;
+    }
+
+    .about .form .subscribe h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .about .form form input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .tests {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .tests .container {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        width: 425px !important;
+    }
+
+    .navbar {
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        background: rgb(255, 255, 255, 0.7) !important;
+        backdrop-filter: blur(5px) ;
+    }
+    .navbar .container{
+        background: none;
+        padding: 10px 0 !important;
+    }
+    .navbar .container img{
+        background: none;
+    }
+    
+
+    .navbar .menu {
+        position: fixed;
+        z-index: 1;
+        right: -30%;
+        top: 59.4px;
+        width: 30%;
+        background: rgb(255, 255, 255, 0.7);
+        backdrop-filter: blur(5px);
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    .burger{
+        display: flex !important;
+    }
+    .navbar.active .menu {
+        right: 0;
+    }
+
+    .navbar.active .burger {
+        background: none;
+        border-color: black !important;
+    }
+
+    .navbar.active .burger .fa-times {
+        background: none;
+        color: black;
+    }
+
+    .navbar .menu li {
+        background: none;
+    }
+
+    .navbar .menu li a {
+        background: none;
+        color: #000 !important;
+    }
+    .hero .container{
+        flex-direction: column; 
+        margin-top: 50px;  
+    }
+    .hero .container .level h2 .underline::before {
+        left: -72px !important;
+        width: 80px;}
+    .hero .main{
+        width: 300px !important;
+    }
+    .main-title{
+        margin-top: 80px;
+    }
+    .main-title .container h2{
+        font-size: 25px !important;
+    }
+    .cards .card{
+        flex-direction: column;
+    }
+    .cards .card img{
+        width: 300px;
+    }
+    .cards .card .text{
+        font-size: 16px !important;
+    }
+    .about .info-man{
+        flex-direction: column;
+    }
+    .about .info-man p{
+        font-size: 16px !important;
+    }
+    .about .form{
+        flex-direction: column;
+    }
+    .about .form .title{
+        font-size: 25px !important;
+    }
+    .about .form form input{
+        padding: 5px;
+        font-size: 15px;    
+    }
+    .about .form form .btn{
+        padding: 6px;
+    }
+    footer .container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .testimonials{
+        height: 300px !important;
+    }
+    .testimonials .comment{
+        font-size: 20px !important;
+        line-height: 30px !important;
+        height: 110px !important;
+    }
+}
+@media(max-width: 425px){
+    .container{
+        width: 320px !important;
+    }
+.hero .container .level h2 .underline::before{
+    left: -242px !important;
+}
+.main-title h2{
+    font-size: 15px !important;
+    line-height: 25px !important;
+}
+.main-title .btn{
+    padding: 5px !important;
+    font-size: 15px !important;    
+    line-height: 20px !important;
+}
+}
